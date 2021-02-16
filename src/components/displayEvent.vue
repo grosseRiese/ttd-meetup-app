@@ -64,7 +64,7 @@ export default {
   box-shadow: 0 3px 32px 0 rgba(0, 0, 0,1);
   transition: 0.3s;
   width:20%;
-  width: auto;//100%;
+  width: 350px;//100%;
   margin-bottom: 3rem;
   position: relative;
 
