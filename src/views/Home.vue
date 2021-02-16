@@ -1,18 +1,28 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Heroku -Vue.js App "/>
-  </div>
+  <section class="home">
+    <MeetUpMainPage 
+      :meetUpEvents="meetUpEvents"
+      :myEvents="myEvents"
+    ></MeetUpMainPage>
+  </section>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import MeetUpMainPage from '@/components/MeetUpMainPage.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    MeetUpMainPage,
+  },
+  props: {
+    myEvents: Array,
+    meetUpEvents: Array,
+  },
+  methods:{
   }
 }
 </script>
+<style  lang="scss">
+
+</style>

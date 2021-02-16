@@ -1,0 +1,120 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "JS",
+      "suite": "Online event",
+      "date": "21 Mar",
+      "from": "19:00",
+      "to": "21:00",
+      "HostedBy":"Linnea B",
+      "Attendees": 5,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    },
+    {
+      "id": 2,
+      "name": "Vue3",
+      "suite": "Online event",
+      "date": "10 Apr",
+      "from": "22:00",
+      "to": "du tröttnar",
+      "HostedBy":"Li Hui",
+      "Attendees": 60,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    },
+    {
+      "id": 3,
+      "name": "Angular",
+      "suite": "Online event",
+      "date": "10 Apr",
+      "from": "15:00",
+      "to": "16:00",
+      "HostedBy":"Jack simpson",
+      "Attendees": 8,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "suite": "Online event",
+      "date": "29 Mar",
+      "from": "22:00",
+      "to": "00:00",
+      "HostedBy":"John Doe",
+      "Attendees": 12,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    
+    },
+    {
+      "id": 5,
+      "name": "Dj clubb",
+      "suite": "Online event",
+      "date": "23 Jul",
+      "from": "20:00",
+      "to": "00:00",
+      "HostedBy":"Me I myself",
+      "Attendees": 90,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    
+    },
+    {
+      "id": 6,
+      "name": "Sport",
+      "suite": "Online event",
+      "date": "11 Sep",
+      "from": "16:00",
+      "to": "21:00",
+      "HostedBy":"XYZ",
+      "Attendees": 15,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    },
+    {
+      "id": 7,
+      "name": "IOS",
+      "suite": "Online event",
+      "date": "20 Feb",
+      "from": "12:00",
+      "to": "17:00",
+      "HostedBy":"Trumpo dumpo",
+      "Attendees": 14,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    },
+    {
+      "id": 8,
+      "name": "Agile",
+      "suite": "Online event",
+      "date": "10 Aug",
+      "from": "14:00",
+      "to": "16:00",
+      "HostedBy":"Sven svenzon",
+      "Attendees": 19,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    
+    },
+    {
+      "id": 9,
+      "name": "Wasting Your Time",
+      "suite": "Online event",
+      "date": "9 Maj",
+      "from": "12:00",
+      "to": "21:00",
+      "HostedBy":"Alice C",
+      "Attendees": 120,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    
+    },
+    {
+      "id": 10,
+      "name": "Dezein with me",
+      "suite": "Online event",
+      "date": "3 Jul",
+      "from": "17:00",
+      "to": "20:00",
+      "HostedBy":"Khaled",
+      "Attendees": 32,
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+    
+    }
+  ]
+}
