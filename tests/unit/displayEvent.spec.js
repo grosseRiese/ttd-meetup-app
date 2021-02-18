@@ -83,14 +83,12 @@ describe('displayEvent.vue', () => {
   });
 
   it('should show the btn-text',  () => {
-    // arrange
     const wrapper = shallowMount(DisplayEvent, {
         props: { 
           displaySingleEvent:fakeData() 
         }
     });
     const expected = 'Request to join';
-    //const btn = wrapper.find('.btn');
     const actual = wrapper.vm.btnText;
     expect(actual).toBe(expected);
   });

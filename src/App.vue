@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       meetUpEvents:meetUpEvents.events,
-      myEvents:[], //JSON.parse(window.localStorage.getItem("Events")).events,
+      myEvents:[],
     };
   },
   methods:{
@@ -42,15 +42,7 @@ export default {
               this.myEvents = Array.from(new Set(this.myEvents.map(JSON.stringify))).map(JSON.parse);
         }
     },
-    /*isEmpty() {
-      (this.myEvents == null || typeof myEvents == 'undefined') ? 
-            JSON.parse(window.localStorage.getItem("Events")).events : [] ;
-    },*/
   },
-  /* beforeMount() {
-      this.meetUpEvents = meetUpEvents.events;
-  }*/
-
 }
 </script>
 

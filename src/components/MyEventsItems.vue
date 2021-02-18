@@ -45,7 +45,7 @@ export default {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      min-height: 23vh;//36vh;
+      min-height: 23vh;
       margin: 0;
 
     .course {
@@ -60,7 +60,7 @@ export default {
 
       .course-preview {
           background-color: #2A265F;
-          color: #0e0d0d;//#fff;
+          color: #0e0d0d;
           padding: 30px;
           max-width: 250px;
           width: 23.8rem;

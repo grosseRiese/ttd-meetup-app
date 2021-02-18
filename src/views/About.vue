@@ -17,7 +17,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      min-height: 50vh;//100vh;
+      min-height: 50vh;
       margin: 0;
       padding:0 10px;
       

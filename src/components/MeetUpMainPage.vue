@@ -13,15 +13,6 @@
             :displaySingleEvent="mpEvent"
             :myEvents="mpEvent"
         ></displayEvent>
-      <!-- 
-        <displayEvent
-            v-for="(mpEvent) in meetUpEvents"
-            :key="mpEvent.id"
-            :id="mpEvent.id"
-            :displaySingleEvent="mpEvent"
-            :myEvents="mpEvent"
-        ></displayEvent>
-        -->
       </ul>
   </section>
 </template>

@@ -19,7 +19,6 @@
           </article>
           <h6> Hosted by: <br> {{ returnedEvent.HostedBy }}</h6>
           <h3><details> {{returnedEvent.Details}} </details></h3><br>
-        <!--  <button class="btn">Attend online</button> -->
         </section>
       </article>
     </section>
