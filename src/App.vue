@@ -3,7 +3,7 @@
     <header id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/myEvents">Your account</router-link>
+      <router-link to="/myEvents">Account</router-link>
     </header>
     <main>
       <hr>
@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       meetUpEvents:meetUpEvents.events,
-      myEvents:[] //JSON.parse(window.localStorage.getItem("Events")).events,
+      myEvents:[], //JSON.parse(window.localStorage.getItem("Events")).events,
     };
   },
   methods:{

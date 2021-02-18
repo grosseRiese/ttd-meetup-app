@@ -7,7 +7,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 #EXPOSE 8080
-#CMD [ "http-server", "dist" ]
+#CMD [ "http-server", "/app/dist" ]
 
 #2 CREATE NGINX SERVER
 FROM nginx:1.19.0-alpine as prod-stage

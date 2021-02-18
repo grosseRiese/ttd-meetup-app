@@ -1,11 +1,17 @@
 <template>
-    <li class="card tooltip"  :id="displaySingleEvent.id">
-      <div class="flex-item"> <span class="suite">{{displaySingleEvent.suite}}</span></div>
+    <li class="card tooltip" :id="displaySingleEvent.id">
+      <div class="flex-item" :style= "{backgroundColor:displaySingleEvent.color}" >
+        <span class="suite">{{displaySingleEvent.suite}}</span>
+      </div>
       <section class="container">
         <small>
-          <p>  {{ displaySingleEvent.date }}, {{ displaySingleEvent.from }}, {{ displaySingleEvent.to }}</p>
+          <p> 
+            <span class="event-date">{{ displaySingleEvent.date }} </span>,
+            <span class="event-from">{{ displaySingleEvent.from }} </span> - 
+            <span class="event-to">{{ displaySingleEvent.to }} </span>
+          </p>
         </small>
-        <h2><b>{{ displaySingleEvent.name }}</b></h2> 
+        <h2 class="event-name"><b>{{ displaySingleEvent.name }}</b></h2> 
         <p><small>Hosted by:</small> <b>  {{displaySingleEvent.HostedBy}} </b></p> 
         <p class="attendees">{{displaySingleEvent.Attendees}}</p>
       </section>
@@ -36,7 +42,7 @@ export default {
       this.$router.push('/eventInfo/' + this.displaySingleEvent.id);
     },
     emitTheEvent(){
-      this.updatLcSt(this.displaySingleEvent);
+      this.updatLcSt(this.displaySingleEvent)
       this.btnClicked = true;
       this.btnText="Accepted";
       this.$nextTick(() => {
@@ -54,8 +60,8 @@ export default {
       //this.$router.push({ path: `/myEvents/` });
     },
   },
-  computed:{
-  }
+  computed:{ 
+  },
 }
 </script>
 

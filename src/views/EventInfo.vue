@@ -2,17 +2,17 @@
     <section class="section-event-Info"
       :key="returnedEvent.id" 
       :id="returnedEvent.id" :singleEvent="singleEvent">
-      <h1><b>Event Information  </b></h1> 
+      <h2 class="h2-title"><b>Event Information  </b></h2> 
       <article class="course">
-        <section class="course-preview">
+        <section class="course-preview" :style= "{backgroundColor:returnedEvent.color}">
           <h6>Event meet-up</h6>
-          <h2>{{returnedEvent.name}}</h2>
+          <h2 class="event-name">{{returnedEvent.name}}</h2>
           <small> <p class="course-perview-p"> {{returnedEvent.Attendees}} attendees</p></small>
         </section>
         <section class="course-info">
           <article class="progress-container">
-            <p class="progress-p">{{returnedEvent.from}} </p>
-            <p class="progress-p">{{returnedEvent.to}}</p>
+            <p class="progress-p p-from">{{returnedEvent.from}} </p>
+            <p class="progress-p p-to">{{returnedEvent.to}}</p>
             <span class="progress-text">
               {{returnedEvent.date}}
             </span>
@@ -71,7 +71,7 @@ export default {
 
       .course-preview {
           background-color: #2A265F;
-          color: #fff;
+          color:#0e0d0d;// #fff;
           padding: 30px;
           max-width: 250px;
           width: 23.8rem;

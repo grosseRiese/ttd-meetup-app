@@ -9,7 +9,9 @@
       "to": "21:00",
       "HostedBy":"Linnea B",
       "Attendees": 5,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#ffff007a",
+      "status": "New"
     },
     {
       "id": 2,
@@ -20,18 +22,22 @@
       "to": "du tröttnar",
       "HostedBy":"Li Hui",
       "Attendees": 60,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#42b983",
+      "status": "On"
     },
     {
       "id": 3,
       "name": "Angular",
       "suite": "Online event",
-      "date": "10 Apr",
+      "date": "4 Feb",
       "from": "15:00",
       "to": "16:00",
       "HostedBy":"Jack simpson",
       "Attendees": 8,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#da1616c2",
+      "status": "Off"
     
     },
     {
@@ -43,7 +49,9 @@
       "to": "00:00",
       "HostedBy":"John Doe",
       "Attendees": 12,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#61dafb",
+      "status": "New"
     
     },
     {
@@ -55,7 +63,9 @@
       "to": "00:00",
       "HostedBy":"Me I myself",
       "Attendees": 90,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#2c503ea3",
+      "status": "On"
     
     },
     {
@@ -67,7 +77,9 @@
       "to": "21:00",
       "HostedBy":"XYZ",
       "Attendees": 15,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#b47106a3",
+      "status": "Off"
     },
     {
       "id": 7,
@@ -78,7 +90,9 @@
       "to": "17:00",
       "HostedBy":"Trumpo dumpo",
       "Attendees": 14,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#06060647",
+      "status": "New"
     },
     {
       "id": 8,
@@ -89,7 +103,9 @@
       "to": "16:00",
       "HostedBy":"Sven svenzon",
       "Attendees": 19,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#0f0257c4",
+      "status": "New"
     
     },
     {
@@ -101,7 +117,9 @@
       "to": "21:00",
       "HostedBy":"Alice C",
       "Attendees": 120,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#a8059cad",
+      "status": "New"
     
     },
     {
@@ -113,7 +131,9 @@
       "to": "20:00",
       "HostedBy":"Khaled",
       "Attendees": 32,
-      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+      "Details":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "color":"#2d009aad",
+      "status": "Off"
     
     }
   ]

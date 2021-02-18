@@ -9,15 +9,14 @@
 
 <script>
 import MeetUpMainPage from '@/components/MeetUpMainPage.vue'
-
 export default {
   name: 'Home',
   components: {
     MeetUpMainPage,
   },
   props: {
-    myEvents: Array,
-    meetUpEvents: Array,
+    myEvents: Array,//localstorage
+    meetUpEvents: Array, //data.json
   },
   methods:{
   }

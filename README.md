@@ -1,4 +1,14 @@
 # ttd-mtup
+ # Name: EMRAN DAHER
+ # GITHUB: https://github.com/grosseRiese/ttd-meetup-app
+ # PUBLICERADE PÅ : https://app-heroku-docker-meet.herokuapp.com/
+ 
+ ## LEVEL -routing:Systemtester och integrationstester - testa hur komponenter  fungerar tillsammans. Till exempel routing: om man klickar på en länk ska en viss  komponent visas. ✓✓✓✓✓
+ 
+ ## LEVEL: Sortera/filtrera - använda ett sökfält för att begränsa vilka events som  visas. ✓✓✓✓✓
+ 
+ 
+############################################################
 
 ## Project setup
 ```

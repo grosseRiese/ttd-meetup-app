@@ -1,22 +1,26 @@
 <template>
     <section class="section-event-Info" :id="mpEvent.id" :singleEvent="mpEvent">
       <article  class="course" >
-        <section class="course-preview">
+        <section class="course-preview" :style= "{backgroundColor:mpEvent.color}">
           <h6>Event meet-up</h6>
-          <h2>{{mpEvent.name}}</h2>
-          <small> <p class="course-perview-p"> {{mpEvent.Attendees +1}} attendees</p></small>
+          <h2 class="event-name">{{mpEvent.name}}</h2>
+          <small> <p class="course-perview-p"> {{mpEvent.Attendees+1}} attendees</p></small>
         </section>
         <section class="course-info">
           <article class="progress-container">
-            <p class="progress-p">{{mpEvent.from}} </p>
-            <p class="progress-p">{{mpEvent.to}}</p>
+            <p class="progress-p p-from">{{mpEvent.from}} </p>
+            <p class="progress-p p-to">{{mpEvent.to}}</p>
             <span class="progress-text">
               {{mpEvent.date}}
             </span>
           </article>
           <h6> Hosted by: <br> {{ mpEvent.HostedBy }}</h6>
           <h3><details> {{mpEvent.Details}} </details></h3><br>
+          
           <p class="accepted">Accepted</p>
+          <p class="evt-status" v-if ="mpEvent.status ==='Off'" :style="{backgroundColor:'rgba(235, 90, 7, 0.844)'}">OLD</p>
+          <p class="evt-status" v-else-if ="mpEvent.status ==='New'" :style="{backgroundColor:'rgba(4, 16, 200, 0.844)'}">COMING</p>
+          <p class="evt-status" v-else-if ="mpEvent.status ==='On'" :style="{backgroundColor:'teal'}">ONGOING</p>
         </section>
       </article>
     </section>
@@ -56,7 +60,7 @@ export default {
 
       .course-preview {
           background-color: #2A265F;
-          color: #fff;
+          color: #0e0d0d;//#fff;
           padding: 30px;
           max-width: 250px;
           width: 23.8rem;
@@ -101,7 +105,8 @@ export default {
             }
             .progress-text {
               font-size: 10px;
-              opacity: 0.6;
+              color:#0e0d0d;
+              opacity: 0.9;
               letter-spacing: 1px;
             }
         }
@@ -131,6 +136,17 @@ export default {
           border-radius:5px;
           padding:0.4rem;
           background-color:rgba(0, 128, 0, 0.711);
+          color:white;
+        }
+        .evt-status{
+          position: absolute;
+          float: left;
+          bottom:10px;
+          left:10px;
+          border: 1px solid;
+          border-radius:5px;
+          padding:0.4rem;
+          background-color:rgb(255, 255, 255);
           color:white;
         }
       }
