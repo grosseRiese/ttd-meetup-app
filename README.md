@@ -1,5 +1,4 @@
 # ttd-mtup
- # Name: EMRAN DAHER
  # GITHUB: https://github.com/grosseRiese/ttd-meetup-app
  # PUBLICERADE PÅ : https://vue-meetup-heroku-docker-tdd.herokuapp.com/
  
